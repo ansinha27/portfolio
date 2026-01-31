@@ -32,10 +32,8 @@ export default defineConfig({
         host: true,
         port: 5173,
         allowedHosts: [
-            'generativedge.cloud',
-            'www.generativedge.cloud',
-            'generativedge.com',
-            'www.generativedge.com'
+            'ananyasinha.online',
+
         ],
     },
 
