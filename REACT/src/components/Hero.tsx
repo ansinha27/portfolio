@@ -82,7 +82,7 @@ export function Hero() {
                     >
                         <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold mb-4 tracking-tight font-['Outfit'] whitespace-nowrap text-center flex justify-center items-center leading-tight">
                             <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/70 pb-2">
-                                The Generative&nbsp;
+                                Ananya&nbsp;
                             </span>
                             <span
                                 className={cn(
@@ -90,7 +90,7 @@ export function Hero() {
                                     "drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] pb-2"
                                 )}
                             >
-                                Edge
+                                Sinha
                             </span>
                         </h1>
                     </motion.div>
@@ -103,7 +103,7 @@ export function Hero() {
                         animate="visible"
                         className="text-xl md:text-2xl font-medium text-white/50 mb-8 font-['Outfit']"
                     >
-                        — by <span className="text-white/70">Pranjul</span>
+                        {/* — by <span className="text-white/70">Pranjul</span> */}
                     </motion.p>
 
                     {/* Subtitle */}
