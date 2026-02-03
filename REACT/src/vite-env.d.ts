@@ -16,6 +16,25 @@ interface ImportMeta {
 
 // Type declaration for importing JSON files
 declare module '@config' {
+    interface ExperienceItem {
+        title: string
+        company: string
+        location: string
+        period: string
+        description: string
+        highlights: string[]
+        technologies: string[]
+    }
+
+    interface EducationItem {
+        degree: string
+        institution: string
+        location: string
+        period: string
+        description: string
+        achievements: string[]
+    }
+
     const config: {
         name: string
         email: string
@@ -33,6 +52,8 @@ declare module '@config' {
             chatbotUrl: string
             ragUrl: string
         }
+        experience?: ExperienceItem[]
+        education?: EducationItem[]
     }
     export default config
 }

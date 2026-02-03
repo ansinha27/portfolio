@@ -31,6 +31,8 @@ export function Header() {
     const navLinks = [
         { name: "Home", href: isHomePage ? "#hero" : "/", isRoute: !isHomePage },
         { name: "Projects", href: isHomePage ? "#projects" : "/#projects", isRoute: !isHomePage },
+        { name: "Experience", href: isHomePage ? "#experience" : "/#experience", isRoute: !isHomePage },
+        { name: "Education", href: isHomePage ? "#education" : "/#education", isRoute: !isHomePage },
         { name: "Technologies", href: isHomePage ? "#features" : "/#features", isRoute: !isHomePage },
         { name: "Blogs", href: "/blogs", isRoute: true },
         { name: "Admin", href: "/blog-generator", isRoute: true },
